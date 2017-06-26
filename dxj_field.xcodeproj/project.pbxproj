@@ -15,6 +15,11 @@
 		F5A6F78E1F01550A00A99FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A6F78C1F01550A00A99FF2 /* LaunchScreen.storyboard */; };
 		F5A6F7991F01550A00A99FF2 /* dxj_fieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A6F7981F01550A00A99FF2 /* dxj_fieldTests.m */; };
 		F5A6F7A41F01550A00A99FF2 /* dxj_fieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A6F7A31F01550A00A99FF2 /* dxj_fieldUITests.m */; };
+		F5A6F7B61F0155A000A99FF2 /* DTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A6F7B31F0155A000A99FF2 /* DTextField.m */; };
+		F5A6F7B71F0155A000A99FF2 /* DTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A6F7B51F0155A000A99FF2 /* DTextView.m */; };
+		F5A6F7BE1F0156AE00A99FF2 /* NSObject+PublicCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A6F7BD1F0156AE00A99FF2 /* NSObject+PublicCategory.m */; };
+		F5A6F7C11F015AF800A99FF2 /* toolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A6F7C01F015AF800A99FF2 /* toolBar.m */; };
+		F5A6F7C31F015D8000A99FF2 /* 搜索灰色@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A6F7C21F015D8000A99FF2 /* 搜索灰色@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		F5A6F79F1F01550A00A99FF2 /* dxj_fieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dxj_fieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A6F7A31F01550A00A99FF2 /* dxj_fieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dxj_fieldUITests.m; sourceTree = "<group>"; };
 		F5A6F7A51F01550A00A99FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A6F7B21F0155A000A99FF2 /* DTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTextField.h; sourceTree = "<group>"; };
+		F5A6F7B31F0155A000A99FF2 /* DTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTextField.m; sourceTree = "<group>"; };
+		F5A6F7B41F0155A000A99FF2 /* DTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTextView.h; sourceTree = "<group>"; };
+		F5A6F7B51F0155A000A99FF2 /* DTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTextView.m; sourceTree = "<group>"; };
+		F5A6F7BC1F0156AE00A99FF2 /* NSObject+PublicCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PublicCategory.h"; sourceTree = "<group>"; };
+		F5A6F7BD1F0156AE00A99FF2 /* NSObject+PublicCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PublicCategory.m"; sourceTree = "<group>"; };
+		F5A6F7BF1F015AF800A99FF2 /* toolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = toolBar.h; sourceTree = "<group>"; };
+		F5A6F7C01F015AF800A99FF2 /* toolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = toolBar.m; sourceTree = "<group>"; };
+		F5A6F7C21F015D8000A99FF2 /* 搜索灰色@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索灰色@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,7 @@
 		F5A6F77D1F01550900A99FF2 /* dxj_field */ = {
 			isa = PBXGroup;
 			children = (
+				F5A6F7B11F01559900A99FF2 /* field */,
 				F5A6F7811F01550900A99FF2 /* AppDelegate.h */,
 				F5A6F7821F01550900A99FF2 /* AppDelegate.m */,
 				F5A6F7841F01550900A99FF2 /* ViewController.h */,
@@ -138,6 +153,22 @@
 				F5A6F7A51F01550A00A99FF2 /* Info.plist */,
 			);
 			path = dxj_fieldUITests;
+			sourceTree = "<group>";
+		};
+		F5A6F7B11F01559900A99FF2 /* field */ = {
+			isa = PBXGroup;
+			children = (
+				F5A6F7C21F015D8000A99FF2 /* 搜索灰色@2x.png */,
+				F5A6F7B21F0155A000A99FF2 /* DTextField.h */,
+				F5A6F7B31F0155A000A99FF2 /* DTextField.m */,
+				F5A6F7B41F0155A000A99FF2 /* DTextView.h */,
+				F5A6F7B51F0155A000A99FF2 /* DTextView.m */,
+				F5A6F7BF1F015AF800A99FF2 /* toolBar.h */,
+				F5A6F7C01F015AF800A99FF2 /* toolBar.m */,
+				F5A6F7BC1F0156AE00A99FF2 /* NSObject+PublicCategory.h */,
+				F5A6F7BD1F0156AE00A99FF2 /* NSObject+PublicCategory.m */,
+			);
+			name = field;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A6F7C31F015D8000A99FF2 /* 搜索灰色@2x.png in Resources */,
 				F5A6F78E1F01550A00A99FF2 /* LaunchScreen.storyboard in Resources */,
 				F5A6F78B1F01550A00A99FF2 /* Assets.xcassets in Resources */,
 				F5A6F7891F01550A00A99FF2 /* Main.storyboard in Resources */,
@@ -273,7 +305,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A6F7B61F0155A000A99FF2 /* DTextField.m in Sources */,
+				F5A6F7C11F015AF800A99FF2 /* toolBar.m in Sources */,
+				F5A6F7B71F0155A000A99FF2 /* DTextView.m in Sources */,
 				F5A6F7861F01550900A99FF2 /* ViewController.m in Sources */,
+				F5A6F7BE1F0156AE00A99FF2 /* NSObject+PublicCategory.m in Sources */,
 				F5A6F7831F01550900A99FF2 /* AppDelegate.m in Sources */,
 				F5A6F7801F01550900A99FF2 /* main.m in Sources */,
 			);
